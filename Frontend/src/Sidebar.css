@@ -1,0 +1,58 @@
+.sidebar {
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    
+  }
+  
+  
+  .sidebarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sidebarWrapper .sidebarButton {
+    align-self: flex-start; /* Align button to the start of the flex container (left side) */
+    margin-top: 20px;
+    width: auto; /* Set width to auto to fit content */
+    text-transform: uppercase;
+    font-weight: bold;
+  
+  }
+  
+  .sidebarWrapper .sidebarHr {
+    margin: 10px 0; /* Adjust margin as needed */
+  }
+  
+  
+  
+  .sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebarIcon {
+    margin-right: 15px;
+  }
+  
+  .sidebarButton {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  .sidebarHr {
+    margin: 20px 0;
+  }
+  
+ 
